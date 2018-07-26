@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Appium(failed)">
+    <classes>
+      <class name="src.com.word_Test.Word_test">
+        <methods>
+          <include name="test1"/>
+          <include name="testWord"/>
+        </methods>
+      </class> <!-- src.com.word_Test.Word_test -->
+    </classes>
+  </test> <!-- Appium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
